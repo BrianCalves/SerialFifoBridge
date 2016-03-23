@@ -1,0 +1,87 @@
+#
+# Fallback
+#
+
+* text=auto
+
+
+#
+# Common Text
+#
+
+*.MF            text
+*.css           text
+*.csv           text
+*.htm           text
+*.html          text
+*.java          text
+*.js            text
+*.json          text
+*.jsp           text
+*.jspf          text
+*.md            text
+*.properties    text
+*.sh            text
+*.shtml         text
+*.sql           text
+*.tsv           text
+*.txt           text
+*.xml           text
+AUTHORS         text
+LICENSE         text
+NOTICE          text
+README          text
+
+
+#
+# Common Media
+#
+
+*.ai            binary
+*.eps           binary
+*.gif           binary
+*.graffle       binary
+*.ico           binary
+*.jpeg          binary
+*.jpg           binary
+*.mp3           binary
+*.mp4           binary
+*.pdf           binary
+*.png           binary
+*.ps            binary
+*.psd           binary
+*.rtf           binary
+*.svg           binary
+*.swf           binary
+*.tif           binary
+*.tiff          binary
+
+
+#
+# Common Miscellanea
+#
+
+*.a             binary
+*.bin           binary
+*.bz            binary
+*.bz2           binary
+*.class         binary
+*.dat           binary
+*.dmg           binary
+*.ear           binary
+*.gz            binary
+*.jar           binary
+*.tar           binary
+*.war           binary
+*.zip           binary
+
+
+#
+# Git
+#
+
+.gitattributes  text
+.gitconfig      text
+.gitignore      text
+
+
