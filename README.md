@@ -14,9 +14,9 @@ serial2fifo <serial-device> <s2c-fifo> <c2s-fifo>
 
 ## Description
 
-The bridge program facilitates bi-directional communication between a serial-connected hardware device (`s`) and a client program (`c`).
-
 ![UML Collaboration Diagram](doc/UML-A.png?raw-true "UML Collaboration Diagram of the Bridge Program and its Peers")
+
+The bridge program facilitates bi-directional communication between a serial-connected hardware device (`s`) and a client program (`c`).
 
 The bridge program exchanges data with the serial-connected hardware device via its operating system device file.
 This device file consitutes a bi-directional communication channel.
@@ -80,7 +80,7 @@ Serial ports are named, and apper in the file system as special files.
 
 A pipe is a uni-directional communication channel.
 A pair of pipes may constitute a bi-directional communication channel.
-Pipe may be given names, and appear in the file system as special files.
+Pipes may be given names, and appear in the file system as special files.
 
 By giving names to pipes and serial ports, they can be located.
 
