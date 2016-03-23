@@ -1,7 +1,0 @@
-
-=====
-To Do
-=====
-
-o	Add support for (automatically) re-opening FIFOs in the event of SIGHUP?
-
