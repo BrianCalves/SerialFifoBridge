@@ -54,12 +54,6 @@ If either the client program or the hardware device disconnect, the bridge progr
 Restart the bridge program to begin another session.
 
 
-## System Requirements
-
-The program was developed for Mac OS X 10.5.
-In order to compile this C/C++ language program, you will need Apple Developer Tools of suitable vintage.
-
-
 ## Compiling the Source Code
 
 The source code comprises `serial2fifo.cc` and `makefile`.
@@ -70,7 +64,13 @@ make
 ```
 
 
-# Background
+## System Requirements
+
+The program was developed for Mac OS X 10.5.
+In order to compile this C/C++ language program, you will need Apple Developer Tools of suitable vintage.
+
+
+## Background
 
 This bridge program relays data between two, bi-directional communication channels:
 one bi-directional channel being a serial port, the other being a pair of named pipes.
